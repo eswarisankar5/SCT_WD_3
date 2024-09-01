@@ -99,19 +99,3 @@ body {
     font-weight: bold;
     border-radius: 20px;
 }
-#theme{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-.backgroundContainer{
-    margin-top: 30px;
-    margin-left: -8px;
-}
-#theme{
-    padding: 20px;
-    margin-left: 120px;
-    font-weight: bold;
-    border-radius: 20px;
-}
