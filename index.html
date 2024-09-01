@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="welcomeContainer">
+        <h1 class="white">Welcome to Tic Tac Toe!</h1>
+        <button id="startGameBtn">Start Game</button>
+        <div class="backgroundContainer">
+            <button id="theme">Change Mode</button>
+        </div>
+        
+    </div>
+
+
+    <div id="gameContainer" style="display: none;">
+        <h1 id="playerName"></h1>
+        <div id="cellContainer">
+            <div cellIndex="0" class="cell"></div>
+            <div cellIndex="1" class="cell"></div>
+            <div cellIndex="2" class="cell"></div>
+            <div cellIndex="3" class="cell"></div>
+            <div cellIndex="4" class="cell"></div>
+            <div cellIndex="5" class="cell"></div>
+            <div cellIndex="6" class="cell"></div>
+            <div cellIndex="7" class="cell"></div>
+            <div cellIndex="8" class="cell"></div>
+        </div>
+        <div class="audio">
+            <audio id="GameOver" src="gameover.mp3"></audio>
+            <audio id="click" src="ting.mp3"></audio>
+        </div>
+        <div class="status">
+            <h2 id="statusText"></h2>
+            <img id="wingif" src="https://gifdb.com/images/high/yes-cute-excited-bunny-rhipa87mmppyaej5.gif">
+            <img id="drawgif" src="https://media.tenor.com/pXG_g48_eiwAAAAj/%E5%BC%95%E3%81%8D%E5%88%86%E3%81%91-draw.gif">
+        </div>
+        <button id="restartBtn">Restart</button>
+    </div>
+
+    <div class="scoreBoardContainer">
+        <h1>Score Board</h1>
+        <p id="scoreX">Score X:</p>
+        <p id="scoreY">Score O:</p>
+        <p id="Draws">Draw:</p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    columns: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+#gameContainer {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+  
+    width: 350px;
+}
+
+
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.cell {
+    background-color: #ececec;
+    border: 2px solid #ddd;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cell:hover {
+    background-color: #dcdcdc;
+}
+
+#statusText {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+#restartBtn {
+    background-color: #008cba;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#restartBtn:hover {
+    background-color: #005f8a;
+}
+#wingif,
+#drawgif {
+    height: 100px;
+    width: 100px;
+    display: none; /* Ensure GIFs are hidden initially */
+    margin: 0 auto;
+    transition: opacity 0.5s ease;
+}
+.fadeOut{
+    opacity: 0;
+    display: none;
+}
+.scoreBoard h1,p{
+    color: #fff;
+}
+.scoreBoardContainer{
+    display: none; /* Hide initially */
+    margin-left: 50px;
+    margin-bottom: 20px; /* Adjusted margin to be more appropriate */
+    color: #fff;
+}
+.welcomeContainer h1{
+    color: white;
+}
+.welcomeContainer{
+    display: flex;
+    font-size: 2.4rem;
+    justify-content: center;
+}
+.white{
+    color: white;
+}
+#startGameBtn{
+    padding: 20px;
+    margin-left: 120px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+#theme{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.backgroundContainer{
+    margin-top: 30px;
+    margin-left: -8px;
+}
+#theme{
+    padding: 20px;
+    margin-left: 120px;
+    font-weight: bold;
+    border-radius: 20px;
+}
